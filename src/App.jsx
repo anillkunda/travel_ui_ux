@@ -21,17 +21,17 @@ const App = () => {
   }, []);
 
   return (
-    <main>
+    <>
       <Navbar />
-      <section className="relative overflow-hidden">
+      <main className="relative overflow-hidden">
         <Hero />
         <Camp />
         <Guide />
         <Features />
         <GetApp />
-      </section>
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 
